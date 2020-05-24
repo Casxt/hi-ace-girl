@@ -10,6 +10,7 @@ def hello_world():
 
 @app.route('/count')
 def count_test():
+    global count
     count = count + 1
     return f"Hello ace girl, {count}"
 
